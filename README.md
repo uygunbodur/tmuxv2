@@ -40,7 +40,7 @@ tmux kill-server
 5. **Start Tmux:**
 Start a new Tmux session, which will now use the custom configuration file.
 ```bash
-tmux
+tmux -f ~/.config/tmux/tmux.conf
 ```
 
 6. **Install Plugins:**
